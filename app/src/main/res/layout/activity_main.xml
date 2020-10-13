@@ -20,7 +20,7 @@
         android:id="@+id/bt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="16dp"
         android:text="Log in"
         app:layout_constraintBottom_toTopOf="@+id/pb"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,8 +32,8 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ib"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
@@ -63,4 +63,15 @@
             android:hint="Ingrese contraseña"
             android:inputType="textPersonName" />
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ib"
+        android:layout_width="107dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="GitHubicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ghicon" />
 </androidx.constraintlayout.widget.ConstraintLayout>

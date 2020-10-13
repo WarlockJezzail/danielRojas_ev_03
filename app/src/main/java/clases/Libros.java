@@ -13,10 +13,11 @@ public class Libros {
     //Constructores
     public Libros()
     {
-        Farenheith=4000;
-        Revival=12000;
+        Farenheith=7000;
+        Revival=22000;
         El_Alquimista=45000;
-
+        El_Poder=8800;
+        Despertar=156000;
     }
     //Accesadores
 

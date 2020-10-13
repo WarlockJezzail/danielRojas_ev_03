@@ -9,7 +9,7 @@ public class Libros {
     private int El_Alquimista;
     private int El_Poder;
     private int Despertar;
-
+//
     //Constructores
     public Libros()
     {
